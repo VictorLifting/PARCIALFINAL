@@ -65,7 +65,7 @@ public void mouse() {
 }
 
 public void exepcion() throws MiExcepcion{
-	if(contador>10) {
+	if(contador>6) {
 		throw new MiExcepcion("ya alcanzo el maximo limite");
 	}
 }

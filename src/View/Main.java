@@ -1,6 +1,7 @@
 package View;
 
 import Main.Logica;
+import Main.MiExcepcion;
 import processing.core.PApplet;
 
 
@@ -29,6 +30,12 @@ public class Main extends PApplet{
 	
 	public void mouseClicked() {
 		this.log.mouse();
+		try {
+			log.exepcion();
+		} catch (MiExcepcion e) {
+			
+			System.out.println(e.getMessage());
+		}
 		
 	}
 	
