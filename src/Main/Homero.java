@@ -49,7 +49,7 @@ public class Homero implements Runnable  {
 	
 		
 	}
-	public void pintar() {
+	public void pintarH() {
 		
 		app.image(homero, posX, posY,100,100);
 		
